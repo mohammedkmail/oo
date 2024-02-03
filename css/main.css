@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+a{
+    text-decoration-line: none;
+    font-size: 18px;
+}
+
+.whitecolor{
+    color: white;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: sticky;
+    margin-top: 40px;
+    position:absolute;
+    width: 100%;
+    
+}
+
+
+.header .logo img{
+    width: 86px;
+    height: 28px;
+}
+.navbar ol{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar ol .home{
+    color: #FFB800;
+    
+    
+}
+
+.first{
+    overflow: hidden;
+    background-image: url(../imge/Background\ Top.png);
+    background-size: 100% 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .centertextbox{
+    
+    
+    text-align: center;
+    line-height: 80px;
+    padding: 50px;
+}
+.first .welcame{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color:#FFB800;
+    font-size: 130px;
+    letter-spacing: 15px;
+    
+}
+
+
+
+.first h1{
+    font-weight: bold;
+    font-size: 76px;
+    letter-spacing:10px ;
+}
+
+.first .linestare{
+    width: 100%;
+    background-color: aqua;
+}
+
+.second{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.second .container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.second .start{
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.second .start .test1{
+    line-height: 87px;
+}
+.second .start .Discovery{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 110px;
+    color:#FFB800;
+    letter-spacing: 15px;
+    margin-top: 60px;
+    
+}
+
+.second .start h2{
+    font-size: 76px;
+    font-weight: 800;
+    letter-spacing: 15px;
+    
+}
+
+.second .start .secondp{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second .start .ABOUT_US{
+    color: #FFB800;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+
+
+.second .end{
+    width: 35%;
+}
+.second .end img{
+width: 100%;
+height: 100%;
+}
+
+
+
+
+.thirde{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70vh;
+    background-image: url(../imge/tasteful-recipes\ 1.png);
+    background-size: 100% 100%;
+}
+.thirde .test2{
+    line-height: 80px;
+}
+.thirde p{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: #FFB800;
+    font-size: 110px;
+    letter-spacing: 15px;
+}
+
+.thirde h2{
+    color: white;
+    font-weight: 700;
+    font-size: 76px;
+    letter-spacing: 15px;
+    line-height: 60px;
+}
+
+
